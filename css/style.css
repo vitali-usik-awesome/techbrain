@@ -28,14 +28,25 @@ body {background: #000;}
 
 /* who_is_wrapper */
 .who_is_wrapper {background: url(../img/who_is_bg.png) 0 0 no-repeat; height: 643px;}
-	.who_is {width: 1152px; margin: 0 auto; overflow: hidden;}
+	.who_is {width: 1152px; margin: 0 auto;}
 	.who_is h1 {font-family: 'Roboto', sans-serif; font-size: 40px; line-height: 52px; font-weight: 100; color: #fff; text-align: center; padding-top: 60px;}
 	.who_is i {font-style: normal; font-size: 24px; line-height: 24px;}
-	.who_is .item {float: left; text-align: center; width: 175px; text-align: center; margin: 72px 0 0 3px; padding: 140px 12px 0 0;}
-	.who_is .item p {font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 19px; font-weight: 100; color: #fff; padding-top: 10px;} 
-	.who_is .item1 {background: url(../img/who_is_items.png) 19px 0 no-repeat;}
-	.who_is .item2 {background: url(../img/who_is_items.png) -171px 0 no-repeat;}
-	.who_is .item3 {background: url(../img/who_is_items.png) -361px 0 no-repeat;}
-	.who_is .item4 {background: url(../img/who_is_items.png) -551px 0 no-repeat;}
-	.who_is .item5 {background: url(../img/who_is_items.png) -741px 0 no-repeat;}
-	.who_is .item6 {background: url(../img/who_is_items.png) -931px 0 no-repeat;}
+
+	.item_wrapper {overflow: hidden;}
+	.item_wrapper .item {float: left; width: 175px; margin: 72px 12px 0 3px; padding-top: 140px; text-align: center;}
+	.item_wrapper .item p {font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 19px; font-weight: 100; color: #fff; padding-top: 10px;} 
+	.item_wrapper .item1 {background: url(../img/who_is_items.png) 19px 0 no-repeat;}
+	.item_wrapper .item2 {background: url(../img/who_is_items.png) -171px 0 no-repeat; margin-right: 16px;}
+	.item_wrapper .item3 {background: url(../img/who_is_items.png) -365px 0 no-repeat; margin-right: 16px;}
+	.item_wrapper .item4 {background: url(../img/who_is_items.png) -559px 0 no-repeat; margin-right: 23px;}
+	.item_wrapper .item5 {background: url(../img/who_is_items.png) -760px 0 no-repeat;}
+	.item_wrapper .item6 {background: url(../img/who_is_items.png) -950px 0 no-repeat; margin-right: 0;}
+
+	.who_is h2 {text-align: center; margin: 56px 0px 0px 437px; font-weight: normal;}
+	.who_is a {text-decoration: none;}
+
+/* global */
+.orange_button {display: block; position: relative; height: 52px; width: 275px; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 52px; font-weight: 500; border: 0 none; color: #fff; background-color: #ee6c0c; border-radius: 4px;}
+	.orange_button:hover {background-color: #d36c0c;}
+	.orange_button:active {background-color: #bf6c0c;}
+
