@@ -1,3 +1,11 @@
+@charset "utf-8";
+
+/* fonts import */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=latin,cyrillic);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+ @font-face { font-family: Fut_o; src: url(../fonts/FUT_O.TTF);} */
+
+
 /* reset */
 * {padding:0; margin:0;}
 img {border:0 none;}
@@ -6,7 +14,13 @@ ul {list-style: none;}
 .hidden {display: none;}
 .clr:after {display:none; position:relative; content:' '; color:transparent; font-size:0; line-height:0; clear:both;}
 
-body {background: #fff;}
+body {background: #000;}
 
 /* wrapper */
-.wrapper {width: 1400px; margin: 0 auto; background: #fff;}
+.wrapper {width: 1450px; margin: 0 auto; background: #fff;}
+
+/* nav */
+.nav {width: 1152px; margin: 0 auto;}
+	.nav img {margin: 21px 0 16px 0;}
+	.nav .menu {float: right;}
+	.nav .menu p {margin: 27px 1px 21px 0; font-family: 'Roboto', sans-serif; font-size: 25px; line-height: 25px; font-weight: 500;}
