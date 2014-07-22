@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* fonts import */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic);
 /*@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
  @font-face { font-family: Fut_o; src: url(../fonts/FUT_O.TTF);} */
 
@@ -20,7 +20,22 @@ body {background: #000;}
 .wrapper {width: 1450px; margin: 0 auto; background: #fff;}
 
 /* nav */
-.nav {width: 1152px; margin: 0 auto;}
-	.nav img {margin: 21px 0 16px 0;}
-	.nav .menu {float: right;}
-	.nav .menu p {margin: 27px 1px 21px 0; font-family: 'Roboto', sans-serif; font-size: 25px; line-height: 25px; font-weight: 500;}
+.nav {width: 1152px; margin: 0 auto; overflow: hidden;}
+	.nav img {margin: 21px 0 16px 0; float: left;}
+	.nav .menu {float: right; overflow: hidden; width: 966px;}
+	.nav .menu p {margin: 27px 1px 24px 0; font-family: 'Roboto', sans-serif; font-size: 25px; line-height: 25px; font-weight: 500;}
+	.nav .menu ul {float: left;}
+
+/* who_is_wrapper */
+.who_is_wrapper {background: url(../img/who_is_bg.png) 0 0 no-repeat; height: 643px;}
+	.who_is {width: 1152px; margin: 0 auto; overflow: hidden;}
+	.who_is h1 {font-family: 'Roboto', sans-serif; font-size: 40px; line-height: 52px; font-weight: 100; color: #fff; text-align: center; padding-top: 60px;}
+	.who_is i {font-style: normal; font-size: 24px; line-height: 24px;}
+	.who_is .item {float: left; text-align: center; width: 175px; text-align: center; margin: 72px 0 0 3px; padding: 140px 12px 0 0;}
+	.who_is .item p {font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 19px; font-weight: 100; color: #fff; padding-top: 10px;} 
+	.who_is .item1 {background: url(../img/who_is_items.png) 19px 0 no-repeat;}
+	.who_is .item2 {background: url(../img/who_is_items.png) -171px 0 no-repeat;}
+	.who_is .item3 {background: url(../img/who_is_items.png) -361px 0 no-repeat;}
+	.who_is .item4 {background: url(../img/who_is_items.png) -551px 0 no-repeat;}
+	.who_is .item5 {background: url(../img/who_is_items.png) -741px 0 no-repeat;}
+	.who_is .item6 {background: url(../img/who_is_items.png) -931px 0 no-repeat;}
