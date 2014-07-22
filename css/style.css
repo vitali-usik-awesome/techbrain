@@ -45,6 +45,62 @@ body {background: #000;}
 	.who_is h2 {text-align: center; margin: 56px 0px 0px 437px; font-weight: normal;}
 	.who_is a {text-decoration: none;}
 
+/* discount */
+.discount {background: url(../img/discount_bg.png) 0 0 no-repeat; height: 390px;}
+	.discount h2 {padding: 50px 0 32px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+	.discount b {color: #ea6753;}
+	
+	.clock_wrapper {overflow: hidden; margin-left: 424px;}
+	.clock_wrapper .clock_item {float: left; background: url(../img/discount_clock.png) 0 0 no-repeat; width: 170px; height: 181px; margin-left: -26px;}
+	.clock_wrapper .clock_item:first-child {margin-left: 0;}
+
+	.discount p {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 14px; font-weight: 300; text-align: center; margin-top: -20px; color: #555;}
+	.discount h3 {text-align: center; margin: 15px 0px 0px 586px; font-weight: normal;}
+	.discount a {text-decoration: none;}
+
+/* certificate */
+.certificate {background: url(../img/certificate_bg.png) 0 0 no-repeat; height: 333px;}
+	.certificate p {padding: 106px 0 0 149px; width: 520px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 24px; line-height: 26px; color: #fff;}
+
+/* help */
+.help {height: 614px; background-color: #fff;}
+
+/* why */
+.why {height: 705px; background-color: #555;}
+
+/* stat */
+.stat {height: 196px; background-color: orange;}
+
+/* how */
+.how {height: 766px; background-color: #555;}
+
+/* on_off */
+.on_off {height: 770px; background-color: #fff;}
+
+/* graduates */
+.graduates {height: 802px; background-color: blue;}
+
+/* sign_up */
+.sign_up {height: 348px; background-color: #555;}
+
+/* want_more */
+.want_more {height: 694px; background-color: gray;}
+
+/* want_free */
+.want_free {height: 500px; background-color: #fff;}
+
+/* sign */
+.sign {height: 193px; background-color: orange;}
+
+/* partners */
+.partners {height: 543px; background-color: #555;}
+
+/* footer */
+.footer {height: 178px; background-color: #fff;}
+
+
+
+
 /* global */
 .orange_button {display: block; position: relative; height: 52px; width: 275px; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 52px; font-weight: 500; border: 0 none; color: #fff; background-color: #ee6c0c; border-radius: 4px;}
 	.orange_button:hover {background-color: #d36c0c;}
