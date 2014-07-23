@@ -46,24 +46,33 @@ body {background: #000;}
 	.who_is a {text-decoration: none;}
 
 /* discount */
-.discount {background: url(../img/discount_bg.png) 0 0 no-repeat; height: 390px;}
-	.discount h2 {padding: 50px 0 32px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+.discount {background: url(../img/discount_bg.png) 0 0 no-repeat;}
+	.discount h2 {padding: 28px 0 27px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
 	.discount b {color: #ea6753;}
 	
-	.clock_wrapper {overflow: hidden; margin-left: 424px;}
-	.clock_wrapper .clock_item {float: left; background: url(../img/discount_clock.png) 0 0 no-repeat; width: 170px; height: 181px; margin-left: -26px;}
+	.clock_wrapper {overflow: hidden; margin-left: 434px;}
+	.clock_wrapper .clock_item {float: left; background: url(../img/discount_clock.png) 0 0 no-repeat; width: 170px; height: 181px; margin-left: -20px;}
 	.clock_wrapper .clock_item:first-child {margin-left: 0;}
 
-	.discount p {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 14px; font-weight: 300; text-align: center; margin-top: -20px; color: #555;}
-	.discount h3 {text-align: center; margin: 15px 0px 0px 586px; font-weight: normal;}
+	.discount p {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 14px; font-weight: 300; text-align: center; margin-top: -28px; color: #555;}
+	.discount h3 {text-align: center; margin: 23px 0px 0px 586px; padding-bottom: 40px; font-weight: normal;}
 	.discount a {text-decoration: none;}
 
 /* certificate */
 .certificate {background: url(../img/certificate_bg.png) 0 0 no-repeat; height: 333px;}
-	.certificate p {padding: 106px 0 0 149px; width: 520px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 24px; line-height: 26px; color: #fff;}
+	.certificate p {padding: 99px 0 0 155px; width: 520px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 24px; line-height: 28px; color: #fff;}
 
 /* help */
 .help {height: 614px; background-color: #fff;}
+	.help h2 {padding: 28px 0 27px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+
+	.help_wrapper {overflow: hidden;}
+	.help_wrapper .item {float: left; width: 300px; color: #000; height: 700px;}
+
+	.help h4 {}
+
+	.help .green_button {}
+
 
 /* why */
 .why {height: 705px; background-color: #555;}
