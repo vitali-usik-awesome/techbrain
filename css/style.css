@@ -2,8 +2,6 @@
 
 /* fonts import */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic);
-/*@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
- @font-face { font-family: Fut_o; src: url(../fonts/FUT_O.TTF);} */
 
 
 /* reset */
@@ -63,15 +61,31 @@ body {background: #000;}
 	.certificate p {padding: 99px 0 0 155px; width: 520px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 24px; line-height: 28px; color: #fff;}
 
 /* help */
-.help {height: 614px; background-color: #fff;}
+.help {height: 614px; background-color: #fafbfe;}
 	.help h2 {padding: 28px 0 27px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
 
 	.help_wrapper {overflow: hidden;}
-	.help_wrapper .item {float: left; width: 300px; color: #000; height: 700px;}
+	.help_wrapper .item {float: left; color: #000;}
+	.help_wrapper .item h3 {font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 16px; font-weight: 700; padding-top: 130px;}
+	.help_wrapper ul {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 36px; font-weight: 300px;}
+	.help_wrapper .li_style1 {background: url(../img/help_ul.png) 0 12px no-repeat; padding-left: 15px;}
+	.help_wrapper .li_style2 {background: url(../img/help_ul.png) -285px 12px no-repeat; padding-left: 15px;}
+	.help_wrapper .li_style3 {background: url(../img/help_ul.png) 1px -25px no-repeat; padding-left: 15px;}
 
-	.help h4 {}
+	.help_wrapper .item1 {background: url(../img/help_items.png) 60px 20px no-repeat, #fff; margin: 0 33px 0 160px;}
+	.help_wrapper .item2 {background: url(../img/help_items.png) -230px 20px no-repeat, #fff; margin-right: 33px;}
+	.help_wrapper .item3 {background: url(../img/help_items.png) -510px 20px no-repeat, #fff; margin-right: 33px;}
+	.help_wrapper .item4 {background: url(../img/help_items.png) -790px 20px no-repeat, #fff;}
 
-	.help .green_button {}
+	.help h4 {text-align: center;}
+	.help a {text-decoration: none;}
+
+	.help .green_button {display: block; position: relative; height: 52px; width: 250px; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 52px; font-weight: 500; border: 0 none; color: #fff; background-color: #00aa9f; border-radius: 4px;}
+	.help .green_button:hover {background-color: #00989f;}
+	.help .green_button:active {background-color: #00769f;}
+
+
+
 
 
 /* why */
