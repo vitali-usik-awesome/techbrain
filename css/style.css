@@ -84,6 +84,10 @@ body {background: #000;}
 	.help .green_button:hover {background-color: #00989f;}
 	.help .green_button:active {background-color: #00769f;}
 
+	.help h5 {text-align: center;}
+	.help .gray_button {display: block; position: relative; height: 76px; width: 100%; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 76px; font-weight: 300; border: 0 none; color: #283849; background: url(../img/help_arrow.png) 818px 27px no-repeat, #e9ecf1;}
+	.help .gray_button:hover {background-color: #dadce0;}
+	.help .gray_button:active {background-color: #c4c7ca;}
 
 
 
