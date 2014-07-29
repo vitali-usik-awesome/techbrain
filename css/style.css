@@ -137,17 +137,40 @@ body {background: #000;}
 .want_more {height: 694px; background-color: gray;}
 
 /* want_free */
-.want_free {height: 500px; background-color: #fff;}
+.want_free {height: 500px; background-color: #fff; text-align: center;}
+	.want_free h2 {padding: 33px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000;}
+	.want_free p {font-family: 'Roboto', sans-serif;}
+
+
+
+
+
 
 /* sign */
 .sign {height: 193px; background-color: orange;}
+	.sign p {font-family: 'Roboto', sans-serif; color: #fff; text-align: center; width: 1000px; margin: 0px 225px;}
+	.sign h3 {text-align: center; margin: 23px 0px 0px 586px; padding-bottom: 40px; font-weight: normal;}
+	.sign a {text-decoration: none;}
 
 /* partners */
 .partners {height: 543px; background-color: #555;}
+	.partners h2 {padding: 33px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+
 
 /* footer */
-.footer {height: 178px; background-color: #fff;}
+.footer {overflow: hidden; height: 178px; background-color: #fff;}
+	.footer a {text-decoration: none; text-align: center;}
 
+	.footer .footer_logo {float: left;}
+	
+	.footer .footer_sign {float: left;}
+	.footer .footer_sign h4 {}
+	.footer .footer_sign ul {}
+	.footer .footer_sign h3 {padding-bottom: 40px; font-weight: normal;}
+
+	.footer .footer_mail {float: right;}
+
+	
 
 
 
