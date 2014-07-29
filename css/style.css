@@ -99,39 +99,44 @@ body {background: #000;}
 
 	.block_wrapper {overflow: hidden; margin: 10px 0 10px 0;}
 	.block_wrapper .block {}
-	.block_wrapper .block1 {}
+		.block_wrapper .block h4 {font-family: 'Roboto', sans-serif;}
+
+	.block_wrapper .block1 {float: left; width: 430px; border: 1px gray; min-height: 100px; background: url(../img/block_item1.png) 0 0 no-repeat, #f6f7f9; margin-right: 10px;}
 	.block_wrapper .block2 {}
 
 
 
 
 
+
+
 /* stat */
-.stat {height: 196px; background: orange;}
-	.stat p {margin: 10px 225px;}
-	.stat b {}
+.stat {height: 220px; background: url(../img/stat_bg.png) 0 0 no-repeat;}
+	.stat p {margin: 0 276px 0 306px; font-family: 'Roboto', sans-serif; font-size: 18px; line-height: 18px; color: #000; padding-top: 20px;}
 	.stat .red {color: red;}
-
-
-
-
-
-
-
-
-
 
 /* how */
 .how {height: 766px; background-color: #555;}
 
 /* on_off */
-.on_off {height: 770px; background-color: #fff;}
+.on_off {background-color: #fff;}
 	.on_off h2 {padding: 31px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
-	.on_off p {font-family: 'Roboto', sans-serif; text-align: center;}
+	.on_off p {font-family: 'Roboto', sans-serif; text-align: center; font-weight: 100; font-size: 24px; line-height: 26px; color: #000; text-align: center; width: 866px; padding-left: 292px;}
 
-	.on_off .oo_wrapper {overflow: hidden;}
-	.on_off .oo_wrapper .offline {float: left;}
-	.on_off .oo_wrapper .online {float: left;}
+	.on_off .oo_wrapper {overflow: hidden; margin: 10px 0 30px 300px;}
+	.on_off .oo_wrapper li {font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 14px; line-height: 16px; padding-top: 30px; text-align: center; background: url(../img/green_dot.png) 151px 12px no-repeat;}
+
+	.on_off .oo_wrapper .offline {float: left; width: 320px; margin-right: 160px;}
+	.on_off .oo_wrapper .offline h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) 92px 0 no-repeat; padding-top: 145px; text-align: center;}
+
+	.on_off .oo_wrapper .online {float: left; width: 320px;}
+	.on_off .oo_wrapper .online h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) -412px 0 no-repeat; padding-top: 145px; text-align: center;}
+
+
+
+
+
+
 
 
 /* graduates */
@@ -175,9 +180,9 @@ body {background: #000;}
 
 
 /* sign */
-.sign {height: 193px; background-color: orange;}
-	.sign p {font-family: 'Roboto', sans-serif; color: #fff; text-align: center; width: 1000px; margin: 0px 225px;}
-	.sign h3 {text-align: center; margin: 23px 0px 0px 586px; padding-bottom: 40px; font-weight: normal;}
+.sign {height: 194px; background: url(../img/sign_bg.png) 0 0 no-repeat;}
+	.sign p {font-family: 'Roboto', sans-serif; color: #fff; font-weight: 400; font-size: 24px; line-height: 26px; text-align: center; width: 990px; padding: 30px 0 0px 230px;}
+	.sign h3 {text-align: center; margin: 30px 0px 0px 586px; padding-bottom: 40px; font-weight: normal;}
 	.sign a {text-decoration: none;}
 
 /* partners */
@@ -206,4 +211,12 @@ body {background: #000;}
 .orange_button {display: block; position: relative; height: 52px; width: 275px; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 52px; font-weight: 500; border: 0 none; color: #fff; background-color: #ee6c0c; border-radius: 4px;}
 	.orange_button:hover {background-color: #d36c0c;}
 	.orange_button:active {background-color: #bf6c0c;}
+
+.blue_button {display: block; position: relative; height: 52px; width: 275px; font-family: 'Roboto', sans-serif; font-size: 18px !important; line-height: 52px; font-weight: 500; border: 0 none; color: #fff; background-color: #009ddb; border-radius: 4px;}
+	.blue_button:hover {background-color: #0090c9;}
+	.blue_button:active {background-color: #0082b5;}
+
+
+
+
 
