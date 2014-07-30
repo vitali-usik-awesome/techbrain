@@ -8,12 +8,12 @@
 8. how            - not ready
 9. on_off         - DONE
 10. graduates     - not ready
-11. sign_up       - only bg color
+11. sign_up       - DONE
 12. want_more     - DONE
 13. want_free     - DONE
 14. sign          - DONE
 15. partners      - not ready
-16. footer        - needs styles
+16. footer        - perfect pixel
 
-DONE      - 9/16
-not ready - 3/16
+DONE      - 10/16
+not ready -  3/16

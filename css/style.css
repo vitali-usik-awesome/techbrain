@@ -148,7 +148,7 @@ body {background: #000;}
 
 
 /* sign_up */
-.sign_up {background-color: #555;}
+.sign_up {background-color: #45a4d9;}
 	.sign_up h2 {padding: 31px 0 17px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 30px; line-height: 30px; color: #fff; text-align: center;}
 	.sign_up form {text-align: center;}
 	.sign_up input {border: 0 none; width: 390px; height: 52px; margin-bottom: 9px; padding: 0 20px; font-size: 15px;}
@@ -204,22 +204,32 @@ body {background: #000;}
 
 
 /* partners */
-.partners {height: 543px; background-color: #555;}
+.partners {height: 543px; background-color: #fff;}
 	.partners h2 {padding: 33px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+
+
+/* line */
+.line {background: url(../img/line_bg.png) 0 0 repeat; height: 1px; width: 1450px;}
 
 
 /* footer */
 .footer {overflow: hidden; height: 178px; background-color: #fff;}
 	.footer a {text-decoration: none; text-align: center;}
 
-	.footer .footer_logo {float: left;}
+	.footer .footer_logo {float: left; margin: 18px 48px 0 144px;}
 	
 	.footer .footer_sign {float: left;}
-	.footer .footer_sign h4 {}
-	.footer .footer_sign ul {}
+	.footer .footer_sign h4 {margin: 31px 0 18px 0; padding-left: 25px; background: url(../img/footer_icons.png) 0 2px no-repeat; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 18px; line-height: 18px;}
+	.footer .footer_sign ul {margin-bottom: 18px;}
+	.footer .footer_sign li {display: inline-block; padding-left: 25px; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 18px; line-height: 18px;}
+	.footer .footer_sign .li_item1 {background: url(../img/footer_icons.png) 0 -37px no-repeat; margin-right: 36px;}
+	.footer .footer_sign .li_item2 {background: url(../img/footer_icons.png) -127px -37px no-repeat;}
 	.footer .footer_sign h3 {padding-bottom: 40px; font-weight: normal;}
 
-	.footer .footer_mail {float: right;}
+	.footer .footer_mail {float: right; margin: 0px 152px 0px 0;}
+	.footer .footer_mail h5 {font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 18px; line-height: 18px; margin: 21px 0 14px 0; text-align: right;}
+	.footer .footer_mail input {border: 2px solid #cecece; width: 309px; height: 39px; margin-bottom: 9px; padding: 0 20px; font-size: 18px;}
+	.footer .footer_mail h6 {margin-left: 34px;}
 
 	
 /* global */
