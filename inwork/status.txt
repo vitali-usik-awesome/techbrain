@@ -9,11 +9,11 @@
 9. on_off         - DONE
 10. graduates     - not ready
 11. sign_up       - needs styles
-12. want_more     - not ready
+12. want_more     - DONE
 13. want_free     - DONE
 14. sign          - DONE
 15. partners      - not ready
 16. footer        - needs styles
 
-DONE      - 7/16
-not ready - 4/16
+DONE      - 8/16
+not ready - 3/16
