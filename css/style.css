@@ -94,7 +94,7 @@ body {background: #000;}
 	.help .gray_button:active {background-color: #c4c7ca;}
 
 /* why */
-.why {height: 705px; background-color: #fff;}
+.why {height: 682px; background-color: #fff;}
 	.why h2 {padding: 33px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
 
 	.block_wrapper {overflow: hidden; margin: 10px 0 10px 0;}
@@ -112,25 +112,26 @@ body {background: #000;}
 
 /* stat */
 .stat {height: 220px; background: url(../img/stat_bg.png) 0 0 no-repeat;}
-	.stat p {margin: 0 276px 0 306px; font-family: 'Roboto', sans-serif; font-size: 18px; line-height: 18px; color: #000; padding-top: 20px;}
+	.stat p {margin: 0 292px 0 320px; font-family: 'Roboto', sans-serif; font-size: 18px; line-height: 21px; color: #000;}
 	.stat .red {color: red;}
+	.stat .stat_first {padding-top: 31px;}
 
 /* how */
 .how {height: 766px; background-color: #555;}
 
 /* on_off */
 .on_off {background-color: #fff;}
-	.on_off h2 {padding: 31px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
-	.on_off p {font-family: 'Roboto', sans-serif; text-align: center; font-weight: 100; font-size: 24px; line-height: 26px; color: #000; text-align: center; width: 866px; padding-left: 292px;}
+	.on_off h2 {padding: 31px 0 11px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+	.on_off p {font-family: 'Roboto', sans-serif; text-align: center; font-weight: 100; font-size: 24px; line-height: 28px; color: #000; text-align: center; width: 866px; padding-left: 292px;}
 
-	.on_off .oo_wrapper {overflow: hidden; margin: 10px 0 30px 300px;}
-	.on_off .oo_wrapper li {font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 14px; line-height: 16px; padding-top: 30px; text-align: center; background: url(../img/green_dot.png) 151px 12px no-repeat;}
+	.on_off .oo_wrapper {overflow: hidden; margin: 34px 0 62px 312px;}
+	.on_off .oo_wrapper li {font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 14px; line-height: 22px; padding-top: 35px; text-align: center; background: url(../img/green_dot.png) 148px 12px no-repeat;}
 
-	.on_off .oo_wrapper .offline {float: left; width: 320px; margin-right: 160px;}
-	.on_off .oo_wrapper .offline h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) 92px 0 no-repeat; padding-top: 145px; text-align: center;}
+	.on_off .oo_wrapper .offline {float: left; width: 320px; margin-right: 192px;}
+	.on_off .oo_wrapper .offline h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) 92px 0 no-repeat; padding-top: 168px; text-align: center;}
 
 	.on_off .oo_wrapper .online {float: left; width: 320px;}
-	.on_off .oo_wrapper .online h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) -412px 0 no-repeat; padding-top: 145px; text-align: center;}
+	.on_off .oo_wrapper .online h3 {font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; line-height: 26px; background: url(../img/on_off.png) -420px 0 no-repeat; padding-top: 170px; text-align: center;}
 
 
 
@@ -179,10 +180,11 @@ body {background: #000;}
 
 
 /* want_free */
-.want_free {height: 500px; background-color: #fff; text-align: center;}
-	.want_free h2 {padding: 33px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000;}
-	.want_free p {font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 24px; line-height: 26px; color: #000;}
+.want_free {background-color: #fff; text-align: center;}
+	.want_free h2 {padding: 30px 0 40px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000;}
+	.want_free p {font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 24px; line-height: 28px; color: #000; margin: 0 224px;}
 
+	.want_free .want_free_img {margin: 43px 0 68px 0;}
 
 
 
@@ -190,8 +192,8 @@ body {background: #000;}
 
 /* sign */
 .sign {height: 194px; background: url(../img/sign_bg.png) 0 0 no-repeat;}
-	.sign p {font-family: 'Roboto', sans-serif; color: #fff; font-weight: 400; font-size: 24px; line-height: 26px; text-align: center; width: 990px; padding: 30px 0 0px 230px;}
-	.sign h3 {text-align: center; margin: 30px 0px 0px 586px; padding-bottom: 40px; font-weight: normal;}
+	.sign p {font-family: 'Roboto', sans-serif; color: #fff; font-weight: 400; font-size: 24px; line-height: 28px; text-align: center; width: 990px; padding: 34px 0 0 230px;}
+	.sign h3 {text-align: center; margin: 27px 0px 0px 594px; padding-bottom: 40px; font-weight: normal;}
 	.sign a {text-decoration: none;}
 
 /* partners */
