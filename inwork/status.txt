@@ -2,18 +2,18 @@
 2. who_is_wrapper - DONE
 3. discount       - DONE
 4. certificate    - DONE
-5. help           - font-size in prices
+5. help           - DONE
 6. why            - not ready
 7. stat           - DONE
 8. how            - not ready
 9. on_off         - DONE
 10. graduates     - not ready
-11. sign_up       - needs styles
+11. sign_up       - only bg color
 12. want_more     - DONE
 13. want_free     - DONE
 14. sign          - DONE
 15. partners      - not ready
 16. footer        - needs styles
 
-DONE      - 8/16
+DONE      - 9/16
 not ready - 3/16
