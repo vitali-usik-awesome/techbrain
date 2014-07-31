@@ -151,11 +151,14 @@ body {background: #000;}
 	.graduates .person_wrapper {overflow: hidden; margin: 36px 0 10px 199px;}
 	.graduates .person_wrapper .person {float: left; width: 322px; margin-right: 45px;}
 	.graduates .person_wrapper .person .white {background-color: #fff; padding-top: 24px;}
-	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 100px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 23px;}
-	.graduates .person_wrapper .person .white p {font-family: 'Roboto', sans-serif; margin: 0 15px 0 26px;}
+	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 100px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 300;}
+	.graduates .person_wrapper .person .white p {font-family: 'Roboto', sans-serif; margin: 0 15px 0 26px; padding-bottom: 10px; font-weight: 300; font-size: 14px; line-height: 16px;}
 
-	.graduates .person_wrapper .person .green {background-color: green;}
-	.graduates .person_wrapper .person .green p {font-family: 'Roboto', sans-serif; color: #fff;}
+	.graduates .person_wrapper .person .green {background-color: #59a3a6;}
+	.graduates .person_wrapper .person .green p {margin: 0 15px 0 26px; padding: 10px 0; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; color: #fff;}
+	.graduates .person_wrapper .person .green b {font-size: 18px; line-height: 18px; font-weight: 400;}
+
+	.graduates table {border-spacing: 8px; margin: 40px 0 10px 191px; text-align: center; font-family: 'Roboto', sans-serif; font-weight: 300; font-weight: 24px; color: #fff;}
 
 /* sign_up */
 .sign_up {background-color: #45a4d9;}
@@ -207,16 +210,19 @@ body {background: #000;}
 
 
 /* sign */
-.sign {height: 194px; background: url(../img/sign_bg.png) 0 0 no-repeat;}
+.sign {background: url(../img/sign_bg.png) 0 0 repeat-y;}
 	.sign p {font-family: 'Roboto', sans-serif; color: #fff; font-weight: 400; font-size: 24px; line-height: 28px; text-align: center; width: 990px; padding: 34px 0 0 230px;}
-	.sign h3 {text-align: center; margin: 27px 0px 0px 594px; padding-bottom: 40px; font-weight: normal;}
+	.sign h3 {text-align: center; margin: 27px 0px 0px 594px; padding-bottom: 26px; font-weight: normal;}
 	.sign a {text-decoration: none;}
 
 
 /* partners */
-.partners {height: 543px; background-color: #fff;}
+.partners {background-color: #fff; text-align: center;}
 	.partners h2 {padding: 30px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
 
+	.partners .partner_wrapper {width: 960px; margin-left: 312px; margin-bottom: 80px;}
+	.partners .partner_wrapper img {margin-right: 70px; padding-bottom: 28px;}
+	
 
 /* line */
 .line {background: url(../img/line_bg.png) 0 0 repeat; height: 1px; width: 1450px;}

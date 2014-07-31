@@ -7,15 +7,16 @@
 7. stat           - DONE
 8. how            - not ready
 9. on_off         - DONE
-10. graduates     - in proccess
+10. graduates     - perfect pixel
 11. sign_up       - DONE
 12. want_more     - DONE
 13. want_free     - DONE
 14. sign          - DONE
-15. partners      - not ready
+15. partners      - perfect pixel
 16. footer        - DONE
 
-DONE      - 12/16
-not ready -  3/16
+DONE          - 12/16
+not ready     -  2/16
+perfect pixel -  2/16
 
 1. delete div's height everywhere
