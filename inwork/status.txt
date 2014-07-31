@@ -1,4 +1,4 @@
-1. nav            - menu 
+1. nav            - DONE 
 2. who_is_wrapper - DONE
 3. discount       - DONE
 4. certificate    - DONE
@@ -7,13 +7,15 @@
 7. stat           - DONE
 8. how            - not ready
 9. on_off         - DONE
-10. graduates     - not ready
+10. graduates     - in proccess
 11. sign_up       - DONE
 12. want_more     - DONE
 13. want_free     - DONE
 14. sign          - DONE
 15. partners      - not ready
-16. footer        - perfect pixel
+16. footer        - DONE
 
-DONE      - 10/16
+DONE      - 12/16
 not ready -  3/16
+
+1. delete div's height everywhere
