@@ -151,9 +151,11 @@ body {background: #000;}
 	.graduates .person_wrapper {overflow: hidden; margin: 36px 0 10px 199px;}
 	.graduates .person_wrapper .person {float: left; width: 322px; margin-right: 45px;}
 	.graduates .person_wrapper .person .white {background-color: #fff; padding-top: 24px;}
-	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 100px; text-align: center;}
+	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 100px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 23px;}
+	.graduates .person_wrapper .person .white p {font-family: 'Roboto', sans-serif; margin: 0 15px 0 26px;}
 
 	.graduates .person_wrapper .person .green {background-color: green;}
+	.graduates .person_wrapper .person .green p {font-family: 'Roboto', sans-serif; color: #fff;}
 
 /* sign_up */
 .sign_up {background-color: #45a4d9;}
