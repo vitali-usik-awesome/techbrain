@@ -143,7 +143,7 @@ body {background: #000;}
 
 
 /* graduates */
-.graduates {height: 802px; background: url(../img/grad_bg.png) 0 0 repeat-y;}
+.graduates {background: url(../img/grad_bg.png) 0 0 repeat-y;}
 	.graduates h2 {padding: 35px 0 24px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #fff; text-align: center;}
 	.graduates h4 {padding: 1px 0 1px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 25px; line-height: 25px; color: #fff; text-align: center;}
 	.graduates b {font-size: 30px;}
@@ -151,14 +151,17 @@ body {background: #000;}
 	.graduates .person_wrapper {overflow: hidden; margin: 36px 0 10px 199px;}
 	.graduates .person_wrapper .person {float: left; width: 322px; margin-right: 45px;}
 	.graduates .person_wrapper .person .white {background-color: #fff; padding-top: 24px;}
-	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 100px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 300;}
-	.graduates .person_wrapper .person .white p {font-family: 'Roboto', sans-serif; margin: 0 15px 0 26px; padding-bottom: 10px; font-weight: 300; font-size: 14px; line-height: 16px;}
+	.graduates .person_wrapper .person .white h5 {background: url(../img/person_item.png) 116px 0 no-repeat; padding-top: 93px; text-align: center; font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 300;}
+	.graduates .person_wrapper .person .white p {font-family: 'Roboto', sans-serif; margin: 0 15px 0 28px; padding-bottom: 15px; font-weight: 300; font-size: 14px; line-height: 19px;}
 
 	.graduates .person_wrapper .person .green {background-color: #59a3a6;}
-	.graduates .person_wrapper .person .green p {margin: 0 15px 0 26px; padding: 10px 0; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; color: #fff;}
+	.graduates .person_wrapper .person .green p {margin: 0 15px 0 26px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; color: #fff;}
+	.graduates .person_wrapper .person .green p:first-child {padding: 16px 0 6px 0;}
+	.graduates .person_wrapper .person .green p {padding-bottom: 18px;}
 	.graduates .person_wrapper .person .green b {font-size: 18px; line-height: 18px; font-weight: 400;}
 
-	.graduates table {border-spacing: 8px; margin: 40px 0 10px 191px; text-align: center; font-family: 'Roboto', sans-serif; font-weight: 300; font-weight: 24px; color: #fff;}
+	.graduates table {border-spacing: 8px; margin: 42px 0 0 191px; padding-bottom: 28px; text-align: center; font-family: 'Roboto', sans-serif; font-weight: 300; font-weight: 24px; color: #fff;}
+	.graduates .tr_last {height: 64px;}
 
 /* sign_up */
 .sign_up {background-color: #45a4d9;}
@@ -167,13 +170,6 @@ body {background: #000;}
 	.sign_up input {border: 0 none; width: 390px; height: 52px; margin-bottom: 9px; padding: 0 20px; font-size: 15px;}
 	.sign_up h3 {text-align: center; margin: 4px 0px 0px 592px; padding-bottom: 32px; font-weight: normal;}
 	.sign_up a {text-decoration: none;}
-
-
-
-
-
-
-
 
 
 /* want_more */
@@ -220,7 +216,7 @@ body {background: #000;}
 .partners {background-color: #fff; text-align: center;}
 	.partners h2 {padding: 30px 0 48px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
 
-	.partners .partner_wrapper {width: 960px; margin-left: 312px; margin-bottom: 80px;}
+	.partners .partner_wrapper {width: 960px; margin: 36px 0 71px 310px;}
 	.partners .partner_wrapper img {margin-right: 70px; padding-bottom: 28px;}
 	
 
