@@ -139,8 +139,30 @@ body {background: #000;}
 	.stat .stat_first {padding-top: 31px;}
 
 
-/* how */
-.how {height: 766px; background-color: #555;}
+/* how_our */
+.how_our {background-color: #ececec;}
+	.how_our h2 {padding: 30px 0 12px 0; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 40px; line-height: 40px; color: #000; text-align: center;}
+
+	.how_our .how_wrapper {overflow: hidden; background: url(../img/how_bg.png) 0 68px no-repeat; height: 524px; width: 1039px; margin-left: 212px;}
+	.right_hand {margin: 35px 0 0px 157px; height: 120px;}
+	.right_hand p {display: block; position: relative; float: left; margin-right: 100px; width: 200px; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 21px; line-height: 23px; color: #000; text-align: center;}
+	.right_hand p:last-child {margin-right: 0;}
+
+	.left_hand {margin: 49px 0 0px 28px; height: 120px; padding-bottom: 16px;}
+	.left_hand p {display: block; position: relative; float: left; margin-right: 100px; width: 200px; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 21px; line-height: 23px; color: #000; text-align: center;}
+	.left_hand p:last-child {margin-right: 0;}
+
+
+/* how_another */
+.how_another {background: url(../img/how_bg2.png) 0 0 no-repeat; height: 162px;}
+
+	.how2_wrapper {overflow: hidden; padding: 50px 0 0 206px;}
+	.how2_wrapper p {display: block; position: relative; float: left; margin-right: 132px; width: 110px; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 21px; line-height: 23px; color: #000; text-align: center;}
+	.how2_wrapper p:first-child {font-size: 18px; line-height: 19px; color: #fff; width: 100px; margin-top: 13px;}
+
+	.how2_second {padding-right: 20px;}
+	.how2_third {padding-right: 45px;}
+	.how2_last {padding-top: 7px;}
 
 
 /* on_off */
