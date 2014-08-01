@@ -3,7 +3,7 @@
 3. discount       - DONE
 4. certificate    - DONE
 5. help           - DONE
-6. why            - not ready
+6. why            - DONE
 7. stat           - DONE
 8. how            - not ready
 9. on_off         - DONE
@@ -15,8 +15,8 @@
 15. partners      - DONE
 16. footer        - DONE
 
-DONE          - 14/16
-not ready     -  2/16
+DONE          - 15/16
+not ready     -  1/16
 perfect pixel -  0/16
 
 1. delete div's height everywhere
